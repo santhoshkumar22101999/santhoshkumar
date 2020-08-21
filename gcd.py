@@ -1,3 +1,8 @@
-import math
-x=list(map(int,input("Enter the number").split()))
-print (math.gcd(x[0],x[1]))
+d1=int(input("enter a number"))
+d2=int(input("enter another number"))
+rem=d1%d2
+while(rem!=0):
+    d1=d2
+    d2=rem
+    rem=d1%d2
+print(d2)

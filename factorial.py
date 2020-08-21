@@ -1,7 +1,6 @@
-n=int(input("Enter the number : "))
-fact=1
+n=int(input("enter a number"))
 i=1
-while i<=n:
-    fact=fact*i
-    i+=1
-print("the factorial value of %d is %d"%(n,fact))
+while(n>0):
+    i=i*n
+    n=n-1
+print(i)
